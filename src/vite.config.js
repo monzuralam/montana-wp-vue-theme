@@ -8,8 +8,8 @@ export default defineConfig({
     rollupOptions: {
       output: {
         dir: '../assets/',
-        entryFileNames: 'index.js',
-				assetFileNames: 'style.css',
+        entryFileNames: 'bundle.js',
+				assetFileNames: 'styles.css',
 				chunkFileNames: "chunk.js",
         manualChunks: undefined,
       }
