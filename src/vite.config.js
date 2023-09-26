@@ -8,9 +8,20 @@ export default defineConfig({
     rollupOptions: {
       output: {
         dir: '../assets/',
-        entryFileNames: 'bundle.js',
-				assetFileNames: 'styles.css',
-				chunkFileNames: "chunk.js",
+        entryFileNames: 'js/bundle.js',
+				assetFileNames: 'css/styles.css',
+				chunkFileNames: "js/chunk.js",
+        manualChunks: undefined,
+      }
+    }
+  },
+  watch: {
+    rollupOptions: {
+      output: {
+        dir: '../assets/',
+        entryFileNames: 'js/bundle.js',
+				assetFileNames: 'css/styles.css',
+				chunkFileNames: "js/chunk.js",
         manualChunks: undefined,
       }
     }
