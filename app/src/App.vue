@@ -1,8 +1,9 @@
 <script setup>
+import Header from "./components/Header/Header.Component.vue";
 </script>
 
 <template>
-  <h1 class="text-3xl">WP Vue</h1>
+  <Header />
 </template>
 
 <style scoped>
